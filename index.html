@@ -7,21 +7,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-<body>
+<body class="bg-slate-100		">
     <header>
         <h1 class="text-5xl text-center mt-16">Welcome To <span class="font-semibold text-purple-900">Bank with JS</span></h1>
     </header>
     <main>
-        <section class="bg-cyan-400  w-3/4  mx-auto  mt-8  p-4  rounded-md">
+        <section class=" bg-cyan-400  w-3/4  mx-auto  mt-8  p-4  rounded-md drop-shadow-2xl	">
             <h1 class="font-bold text-xl mb-2">PLease Login First </h1>
-            <form action="">
-                <input class="block border mb-2 w-3/4 rounded-md px-2" type="text" placeholder="User Name">
-                <input class="block border mb-2 w-3/4 rounded-md px-2" type="password" placeholder="Password">
+            <div class="">
+                <input id="user-email" class="block border mb-2 w-3/4 rounded-md px-2" type="text" placeholder="User Name">
+                <input id="user-password" class="block border mb-2 w-3/4 rounded-md px-2" type="password" placeholder="Password">
 
-                <button class="bg-yellow-700 px-3 text-white font-bold py-2 rounded">Submit</button>
+                <button id="login-submit" class="bg-yellow-700 px-3 text-white font-bold py-2 rounded">Submit</button>
 
-            </form>
+            </div>
         </section>
     </main>
+
+
+
+    <script src="js/login.js"></script>
+    <script>
+ 
+    </script>
 </body>
 </html>
